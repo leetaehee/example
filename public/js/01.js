@@ -13,9 +13,6 @@ const greet = (first, last) => {
 const prices = ['1.0', '흥정가능', '2.15'];
 const formattedPrices = prices.map(p => parseFloat(p)).filter(p => p);
 
-
 //---------------------------------------------------------------------------------
 // TEST
 //---------------------------------------------------------------------------------
-
-console.log(formattedPrices);
