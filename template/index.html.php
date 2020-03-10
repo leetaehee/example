@@ -11,5 +11,6 @@
 	<p>참고도서- 똑똑하게 코딩하는 법  자바스크립트 코딩의 기술</p>
 
 	<script src="/js/01.js"></script>
+    <script src="/js/02.js"></script>
 </body>
 </html>
