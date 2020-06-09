@@ -8,56 +8,63 @@
 
         <!-- bootstrap css -->
         <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css">
+
+        <!-- font Awesome CDN -->
+        <link rel="stylesheet"
+              href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+              integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+              crossorigin="anonymous">
     </head>
     <body>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">스터디 관리 사이트</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            스터디<span class="caret"></span>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">스터디 관리 사이트</a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            스터디
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">스터디 조회</a></li>
-                            <li><a href="#">스터디 생성</a></li>
-                            <li><a href="#">스터디 홍보</a></li>
-                            <li><a href="#">스터디 신고</a></li>
-                        </ul>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">스터디 생성</a>
+                            <a class="dropdown-item" href="#">스터디 조회</a>
+                            <a class="dropdown-item" href="#">스터디 홍보</a>
+                            <a class="dropdown-item" href="#">스터디 신고</a>
+                        </div>
                     </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            나의 스터디<span class="caret"></span>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            나의 스터디
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">운영중인 스터디</a></li>
-                            <li><a href="#">활동중인 스터디</a></li>
-                        </ul>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">운영중인 스터디</a>
+                            <a class="dropdown-item" href="#">활동중인 스터디</a>
+                        </div>
                     </li>
-                    <li>
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            마이페이지<span class="caret"></span>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            마이페이지
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">내정보조회</a></li>
-                        </ul>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">내 정보 조회</a>
+                        </div>
                     </li>
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#">
-                            <span class="glyphicon glyphicon-user"></span>
-                            회원가입
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-sign-in-alt"></i> 로그인
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span class="glyphicon glyphicon-log-in"></span>
-                            로그인
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-user-plus"></i> 회원가입
                         </a>
                     </li>
                 </ul>
