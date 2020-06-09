@@ -54,4 +54,4 @@ $insQuery = "INSERT INTO TESTER (PK, VAL, VAL_DATE) VALUES ($pk, $val, SYSDATE)"
 $stid = oci_parse($conn, $insQuery);
 oci_execute($stid);
 
-include_once $_SERVER['DOCUMENT_ROOT'] . '/../template/index.html.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/../template/oracle.html.php';
