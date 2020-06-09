@@ -54,13 +54,13 @@
                     <li>
                         <a href="#">
                             <span class="glyphicon glyphicon-user"></span>
-                            Sight Up
+                            회원가입
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <span class="glyphicon glyphicon-log-in"></span>
-                            Loigin
+                            로그인
                         </a>
                     </li>
                 </ul>
