@@ -33,11 +33,8 @@
                             나의 스터디<span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">수원 시사토론 스터디 인포션</a></li>
-                            <li><a href="#">빅데이터 스터디</a></li>
-                            <li><a href="#">영어회화 스터디</a></li>
-                            <li><a href="#">파이썬 30일 마스터!</a></li>
-                            <li><a href="#">노래부르기 스터디</a></li>
+                            <li><a href="#">운영중인 스터디</a></li>
+                            <li><a href="#">활동중인 스터디</a></li>
                         </ul>
                     </li>
                     <li>
