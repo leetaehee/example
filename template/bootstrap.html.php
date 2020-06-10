@@ -18,7 +18,7 @@
               integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
               crossorigin="anonymous">
     </head>
-    <body class="d-flex flex-column h-100">
+    <body>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <button class="navbar-toggler"
                     type="button"
@@ -79,11 +79,11 @@
 
         <article></article>
 
-        <footer class="footer mt-auto py-3 bg-light">
+        <nav class="navbar fixed-bottom navbar-light bg-light py-3">
             <div class="container">
-                <span class="text-muted">Copyright @ 200 스터디 관리 사이트</span>
+                <span class="text-muted">Copyright@2020 스터디 관리 사이트</span>
             </div>
-        </footer>
+        </nav>
 
         <!-- Jquery Library-->
         <script src="./js/jquery-3.5.1.min.js"></script>
