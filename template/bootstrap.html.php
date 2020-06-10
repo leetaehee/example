@@ -77,9 +77,7 @@
             </div>
         </nav>
 
-        <article>
-            본문
-        </article>
+        <article></article>
 
         <footer class="footer mt-auto py-3 bg-light">
             <div class="container">
