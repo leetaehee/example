@@ -21,6 +21,7 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <a class="navbar-brand" href="#">스터디 관리 사이트</a>
                 <button class="navbar-toggler"
                         type="button"
                         data-toggle="collapse"
@@ -30,7 +31,6 @@
                         aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#">스터디 관리 사이트</a>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
