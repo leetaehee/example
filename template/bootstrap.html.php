@@ -9,15 +9,17 @@
         <!-- bootstrap css -->
         <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 
+        <!-- common.css -->
+        <link rel="stylesheet" href="./css/common.css">
+
         <!-- font Awesome CDN -->
         <link rel="stylesheet"
               href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
               integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
               crossorigin="anonymous">
     </head>
-    <body>
+    <body class="d-flex flex-column h-100">
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">스터디 관리 사이트</a>
             <button class="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
@@ -27,6 +29,7 @@
                     aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <a class="navbar-brand" href="#">스터디 관리 사이트</a>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
@@ -57,6 +60,9 @@
                             <a class="dropdown-item" href="#">내 정보 조회</a>
                         </div>
                     </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             <i class="fas fa-sign-in-alt"></i> 로그인
@@ -70,6 +76,16 @@
                 </ul>
             </div>
         </nav>
+
+        <article>
+            본문
+        </article>
+
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+                <span class="text-muted">Copyright @ 200 스터디 관리 사이트</span>
+            </div>
+        </footer>
 
         <!-- Jquery Library-->
         <script src="./js/jquery-3.5.1.min.js"></script>
