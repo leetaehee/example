@@ -34,18 +34,32 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle"
+                               href="#"
+                               id="navbardrop"
+                               data-toggle="dropdown">
                                 스터디
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">스터디 생성</a>
-                                <a class="dropdown-item" href="#">스터디 조회</a>
-                                <a class="dropdown-item" href="#">스터디 홍보</a>
-                                <a class="dropdown-item" href="#">스터디 신고</a>
+                                <a class="dropdown-item" href="#">
+                                    스터디 생성
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    스터디 조회
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    스터디 홍보
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    스터디 신고
+                                </a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle"
+                               href="#"
+                               id="navbardrop"
+                               data-toggle="dropdown">
                                 나의 스터디
                             </a>
                             <div class="dropdown-menu">
@@ -54,11 +68,17 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle"
+                               href="#"
+                               id="navbardrop"
+                               data-toggle="dropdown">
                                 마이페이지
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">내 정보 조회</a>
+                                <a class="dropdown-item"
+                                   href="#">
+                                    내 정보 조회
+                                </a>
                             </div>
                         </li>
                     </ul>

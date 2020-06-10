@@ -6,11 +6,8 @@
         <title>예제파일: <?=$nowTime?></title>
     </head>
     <body>
-        <h1>자바스크립트 테스트</h1>
+        <h1>오라클 DBMS 테스트</h1>
 
-        <p>참고도서- 똑똑하게 코딩하는 법  자바스크립트 코딩의 기술</p>
-
-        <script src="/js/01.js"></script>
-        <script src="/js/02.js"></script>
+        <p>우분투에서 오라클 테스트하기</p>
     </body>
 </html>
