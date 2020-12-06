@@ -4,3 +4,12 @@
     padding: 20px;
     margin: auto;
 }
+
+@font-face {
+    src: url("./font/BMJUA_otf.otf");
+    font-family: "BM_jua";
+}
+
+p {
+    font-family: "BM_jua";
+}

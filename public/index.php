@@ -1,5 +1,5 @@
 <?php
-	// 지금시각
-	$nowTime = date('Y-m-d H:i:s');
+// 지금시각
+$nowTime = date('Y-m-d H:i:s');
 
-	include_once $_SERVER['DOCUMENT_ROOT'] . '/../template/index.html.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/../template/index.html.php';
