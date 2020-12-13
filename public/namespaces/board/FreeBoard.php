@@ -8,7 +8,7 @@ class FreeBoard
 
     private $content;
 
-    public function __construct($title, $content)
+    public function __construct(string $title, string $content)
     {
         $this->title = $title;
         $this->content = $content;

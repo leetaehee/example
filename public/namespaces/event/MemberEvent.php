@@ -6,7 +6,7 @@ class MemberEvent
 {
     private $eventName;
 
-    public function __construct($name)
+    public function __construct(string $name)
     {
         $this->eventName = $name;
     }
