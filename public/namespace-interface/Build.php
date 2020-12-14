@@ -1,8 +1,8 @@
 <?php
 
-namespace Vendor\Product;
+namespace Product;
 
-interface Product
+interface Build
 {
     public function getProduct() : void;
 }
