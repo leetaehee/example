@@ -1,5 +1,7 @@
 <?php
 include_once './Build.php';
+include_once './Factory.php';
+include_once './Manual.php';
 
 include_once './Television.php';
 include_once './NoteBook.php';
@@ -11,14 +13,7 @@ use Product\Electronic\NoteBook;
 use Product\Electronic\TabletPC;
 use Product\Electronic\MacBook;
 
-$obj = new Television();
-$obj->getProduct();
+use Product\Manual;
 
-$obj2 = new NoteBook();
-$obj2->getProduct();
-
-$obj3 = new TabletPC();
-$obj3->getProduct();
-
-$obj4 = new MacBook();
-$obj4->getProduct();
+$manual = new Manual(new NoteBook());
+$manual->introduce();

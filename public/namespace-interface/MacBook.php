@@ -6,7 +6,7 @@ use Product\Build;
 
 class MacBook implements Build
 {
-    public function getProduct(): void
+    public function introduce(): void
     {
         echo "Mac Book 입니다. \n";
     }

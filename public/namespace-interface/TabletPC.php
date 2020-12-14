@@ -6,7 +6,7 @@ use Product\Build;
 
 class TabletPC implements Build
 {
-    public function getProduct(): void
+    public function introduce(): void
     {
         echo "Tablet PC 입니다. \n";
     }

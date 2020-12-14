@@ -4,5 +4,5 @@ namespace Product;
 
 interface Build
 {
-    public function getProduct() : void;
+    public function introduce() : void;
 }
