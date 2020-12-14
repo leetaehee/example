@@ -7,6 +7,8 @@ include_once './event/MemberEvent.php';
 use Board\FreeBoard;
 use Shop\Product;
 
+echo 'test';
+
 $title = '게시물 테스트 건입니다.';
 $content = '게시물은 ' . date('Y-m-d H:i:s') . '에 등록 되었습니다.';
 
