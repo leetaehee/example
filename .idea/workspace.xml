@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="315e73a3-dae3-48c4-8779-625eabff35f7" name="Default Changelist" comment="이미지 추가">
+    <list default="true" id="315e73a3-dae3-48c4-8779-625eabff35f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/namespace-interface/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/namespace-interface/Television.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/namespace-interface/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/namespaces/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/namespaces/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +257,7 @@
       <workItem from="1607230741497" duration="29000" />
       <workItem from="1607433058348" duration="872000" />
       <workItem from="1607662371582" duration="2381000" />
-      <workItem from="1607935917718" duration="192000" />
+      <workItem from="1607935917718" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="기본값 적용">
       <created>1583844102902</created>
@@ -313,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607936046093</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="이미지 추가">
+      <created>1607936116306</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607936116306</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
