@@ -4,7 +4,24 @@
         <title>코딩의 민족</title>
         <meta charset="utf-8">
     </head>
+
+    <style>
+        .container {
+            font-size: 20px;
+            background: lime;
+        }
+
+        .text {
+            font-size: 180%;
+            background: skyblue;
+            margin: 0;
+        }
+    </style>
+
     <body>
-        <h1 id="title">코딩의 민족</h1>
+        <div class="container">
+            Codeit!
+            <p class="text">Codeit!</p>
+        </div>
     </body>
 </html>
