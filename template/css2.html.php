@@ -7,21 +7,31 @@
 
     <style>
         .container {
-            font-size: 20px;
-            background: lime;
+            background-color: orange;
+        }
+        .alex {
+            font-size: 90px;
+            background-color: pink;
         }
 
-        .text {
-            font-size: 180%;
-            background: skyblue;
-            margin: 0;
+        .ben {
+            font-size: 30px;
+            background-color: lime;
+            /*vertical-align: middle;*/
+        }
+
+        .chris {
+            font-size: 60px;
+            background-color: yellow;
         }
     </style>
 
     <body>
         <div class="container">
-            Codeit!
-            <p class="text">Codeit!</p>
+            x
+            <span class="alex">alex</span>
+            <span class="ben">ben</span>
+            <span class="chris">chris</span>
         </div>
     </body>
 </html>
