@@ -6,32 +6,48 @@
     </head>
 
     <style>
-        .container {
-            background-color: orange;
-        }
-        .alex {
-            font-size: 90px;
-            background-color: pink;
+        .container
+        {
+            width: 300px;
+            height: 400px;
+            background-color: gray;
+            text-align: center;
+            line-height: 400px;
         }
 
-        .ben {
-            font-size: 30px;
+        .info
+        {
+            /*
+            width: 100%;
+            margin-left: -7px;
+            */
+            line-height: normal;
+
             background-color: lime;
-            /*vertical-align: middle;*/
+            display: inline-block;
+            vertical-align: middle;
         }
 
-        .chris {
-            font-size: 60px;
-            background-color: yellow;
+        .helper
+        {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+
+            /*
+            width: 10px;
+            background-color:red;
+             */
         }
     </style>
 
     <body>
-        <div class="container">
-            x
-            <span class="alex">alex</span>
-            <span class="ben">ben</span>
-            <span class="chris">chris</span>
-        </div>
+       <div class="container">
+           <div class="helper"></div>
+           <div class="info">
+               <h1>Hello!</h1>
+               <p>My name is young.</p>
+           </div>
+       </div>
     </body>
 </html>
