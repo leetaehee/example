@@ -17,33 +17,15 @@
 
         .info
         {
-            /*
-            width: 100%;
-            margin-left: -7px;
-            */
             line-height: normal;
-
             background-color: lime;
             display: inline-block;
             vertical-align: middle;
-        }
-
-        .helper
-        {
-            display: inline-block;
-            height: 100%;
-            vertical-align: middle;
-
-            /*
-            width: 10px;
-            background-color:red;
-             */
         }
     </style>
 
     <body>
        <div class="container">
-           <div class="helper"></div>
            <div class="info">
                <h1>Hello!</h1>
                <p>My name is young.</p>
