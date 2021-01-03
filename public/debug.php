@@ -8,6 +8,10 @@ echo "v= " . $v ."<br>";
 $g = add(1000, 50000);
 echo "g= " . display($g) ."<br>";
 
+error_log('a= ' . $a);
+error_log('v= ' . $v);
+error_log('g= ' . $g);
+
 function add(int $a, int $b) : int
 {
     if ($a < 1) {
