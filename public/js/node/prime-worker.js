@@ -54,5 +54,3 @@ if (isMainThread) {
     findPrimes(workerData.start, workerData.range);
     parentPort.postMessage(primes);
 }
-
-console.log(111);
