@@ -17,13 +17,13 @@
                 /**
                  * json_data.json
                  */
+                const jsonData = {};
                 /**
                     {
                         "abc" : "안녕하세요, 말티즈를 출력해보겠습니다.",
                         "한글날" : "한글날에는 뭐할까요?"
                     }
                  */
-                const jsonData = {};
 
                 $.getJSON('./json/json_data.json', function(data){
                     $.each(data, function(key, value){
@@ -31,7 +31,6 @@
                     });
                     console.log(jsonData); // undefined를 찍는데 왜 그럴까요?
                     console.log(jsonData.abc);
-                    
                 });
             });
         </script>
