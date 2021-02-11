@@ -4,9 +4,22 @@ const path = require('path');
 const app = express();
 app.set('port', process.env.PORT || 3000);
 
-app.get('/', (req, res) => {
-    //res.send('Hello, Expresss');
-    res.sendFile(path.join(__dirname, '/index.html'));
+app.use((req, res, next) => {
+    console.log('모든 요청에서 다 실행됩니다.');
+    next();
+});
+
+app.get('/', (req, res, next) => {
+    //res.sendFile(path.join(__dirname, '/index.html'));
+    console.log('GET / 요청에서만 실행됩니다.');
+    next();
+}, (res, req) => {
+    throw new Error('에러는 에러 처리 미들웨어로 갑니다.');
+});
+
+app.use((err, req, res, next) => {
+    console.log(err);
+    res.status(500).send(err.message);
 });
 
 app.listen(app.get('port'), () => {
