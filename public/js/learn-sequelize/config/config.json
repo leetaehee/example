@@ -7,16 +7,16 @@
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
+    "username": "nodejs",
+    "password": "nodexfdreffdfdff@1",
+    "database": "nodejs",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
+    "username": "nodejs",
+    "password": "node313232323232ffd",
+    "database": "nodejs",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }

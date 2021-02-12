@@ -2,8 +2,11 @@ const express = require('express');
 const path = require('path');
 const morgan = require('morgan');
 const nunjucks = require('nunjucks');
+const dotenv = require('dotenv');
 
 const { sequelize } = require('./models');
+
+dotenv.config();
 
 const app = express();
 app.set('port', process.env.PORT || 3001);
