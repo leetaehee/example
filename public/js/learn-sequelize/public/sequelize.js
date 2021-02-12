@@ -67,7 +67,6 @@ async function getComment(id) {
             const edit = document.createElement('button');
             edit.textContent = '수정';
             edit.addEventListener('click', async () => {
-                alert(id);
                 const newComment = prompt('바꿀 내용을 입력하세요.');
                 if (!newComment) {
                     return alert('내용을 반드시 입력하셔야 합니다.');
