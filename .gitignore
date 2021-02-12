@@ -1,1 +1,4 @@
 .idea
+public/js/learn-express/uploads
+public/js/learn-express/.env
+public/js/learn-sequelize/config/config.json
