@@ -26,6 +26,7 @@ router.route('/:id')
             {
                 where: { id: req.params.id },
             });
+            res.json(result);
         } catch (err) {
             console.error(err);
             next(err);
