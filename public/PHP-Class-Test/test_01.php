@@ -1,5 +1,5 @@
 <?php
-//리스코프치환
+//리스코프치환..
 abstract class Command
 {
     abstract public function getEngineInfo() : void;
