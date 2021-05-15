@@ -3,6 +3,12 @@
   "autoload" : {
     "psr-4" : {
       "app\\" : "autoload/"
+    },
+    "require": {
+      "monolog/monolog": "~1.12"
     }
+  },
+  "require": {
+    "monolog/monolog": "~1.12"
   }
 }
