@@ -1,8 +1,6 @@
 <?php
 include_once('./PHPMailer/PHPMailerAutoload.php');
 
-// 메일발송
-
 $driver = new PHPMailer();
 
 $driver->IsSMTP();
