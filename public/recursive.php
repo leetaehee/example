@@ -1,4 +1,7 @@
 <?php
+/**
+ * Class Calculate
+ */
 class Calculate
 {
     public function add(int $a, bool $recursive = false) : int
