@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Calculate
+ * Class Calculate 계산기
  */
 class Calculate
 {
