@@ -21,7 +21,7 @@ class User {
 
     public function getInfo() : void
     {
-        echo 'name = ' . $this->name .'/ age = ' . $this->age . '/ score = ' . $this->score . "<br>";
+        echo 'name = ' . $this->name .'/ age = ' . $this->age . '/ score = ' . $this->score . "\n";
     }
 
     public function setName(string $name) : void
@@ -46,6 +46,8 @@ $score = 87;
 
 $user = new User($name, $age, $score);
 $user->setName('이태희');
+$user->setAge(34);
+$user->setScore(80);
 $user->getInfo();
 
 /*
