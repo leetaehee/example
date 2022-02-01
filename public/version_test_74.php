@@ -12,14 +12,14 @@ class User {
         $this->age = $age;
         $this->score = $score;
 
-        $this->getInfo();
+        $this->printInfo();
     }
 
     public function __destruct()
     {
     }
 
-    public function getInfo() : void
+    public function printInfo() : void
     {
         echo 'name = ' . $this->name .'/ age = ' . $this->age . '/ score = ' . $this->score . "\n";
     }
@@ -48,7 +48,7 @@ $user = new User($name, $age, $score);
 $user->setName('이태희');
 $user->setAge(34);
 $user->setScore(80);
-$user->getInfo();
+$user->printInfo();
 
 /*
     $aTag = "<a href='https://www.naver.com'><p><h1>네이버로 이동하기</h1></p></a>";
