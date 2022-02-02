@@ -50,6 +50,8 @@ $user->setAge(34);
 $user->setScore(80);
 $user->printInfo();
 
+//$user = User::class;
+
 /*
     $aTag = "<a href='https://www.naver.com'><p><h1>네이버로 이동하기</h1></p></a>";
     echo strip_tags($aTag, ['h1']) . "<br>";
