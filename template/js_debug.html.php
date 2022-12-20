@@ -14,6 +14,7 @@
             const READY_VALUE = 100;
             const $p = $("#p_value");
             $(document).ready(function(){
+                /*
                 let variable = READY_VALUE;
 
                 console.log("<p> tag value = " + $p.html());
@@ -26,6 +27,7 @@
 
                 variable = cc(variable);
                 console.log("cc() : " + variable);
+                 */
             });
 
             function aa(value)
